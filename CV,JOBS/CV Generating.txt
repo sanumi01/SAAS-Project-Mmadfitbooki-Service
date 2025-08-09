@@ -1,0 +1,88 @@
+WORK CV 
+
+Here’s a well-structured CV template tailored for a Data Analytics position in the UK. It adheres to UK CV standards and highlights key skills, qualifications, and experience for the role.
+
+Name :   Mr Kolade Adio
+Address: 2A Machanhill,Larkhall,South Larnarkshire. ML9 2HG
+Email:   Koladeadio@googlemail.com 
+Telephone: 07719695810 
+LinkedIn Profile: koladeadio@linkedIn.co.uk
+
+
+Professional Profile
+
+A results-driven and detail-oriented Data Analyst with 3 years of experience in leveraging data insights to drive business 
+growth and efficiency. Skilled in data visualization, statistical analysis, and advanced data modeling techniques. 
+Proficient in tools like Powerbi, Python, SQL, and Tableau, with a proven track record of delivering actionable insights in
+ [industry, e.g., finance, healthcare, retail]. Adept at working collaboratively with cross-functional teams to solve 
+complex problems and support data-driven decision-making.
+
+Key Skills
+	•	Programming Languages: Python (Pandas, NumPy, Matplotlib, Scikit-learn), R
+	•	Data Visualization: Tableau, Power BI, Excel (Advanced),
+	•	Database Management: SQL, MySQL, PostgreSQL,Snowflake,Azure
+	•	Data Analytics Tools: Excel (Pivot Tables, VLOOKUP), Google Analytics
+	•	Machine Learning: Regression, Classification, Clustering Techniques
+	•	Soft Skills: Problem-solving, Critical Thinking, Communication, Stakeholder Management
+
+Professional Experience
+
+Data Analyst
+[Company Name], [Location]
+[Month/Year] – Present
+	•	Analyzed [type of data, e.g., sales, marketing] data using Python and SQL, resulting in a [specific outcome, e.g., 15% increase in revenue].
+	•	Designed and maintained interactive dashboards in Tableau to monitor [specific KPIs, e.g., marketing ROI, customer churn].
+	•	Automated [specific processes] using Python scripts, reducing manual effort by [percentage/time].
+	•	Collaborated with cross-functional teams to identify opportunities for operational efficiency and cost savings.
+
+Junior Data Analyst
+[Company Name], [Location]
+[Month/Year] – [Month/Year]
+	•	Conducted statistical analysis and trend forecasting, contributing to a [specific outcome, e.g., 20% reduction in churn rate].
+	•	Built SQL queries to extract data for custom reports used by senior management.
+	•	Supported data cleaning and preprocessing efforts for predictive analytics projects.
+	•	Created Excel-based reports and presented insights to key stakeholders.
+
+Education
+
+[Degree Name, e.g., MSc Data Science]
+[University Name], [City, UK]
+[Month/Year] – [Month/Year]
+	•	Dissertation: “[Title of Dissertation]” – [Brief description of research/project].
+
+[Undergraduate Degree, e.g., BSc Computer Science]
+[University Name], [City, Country]
+[Month/Year] – [Month/Year]
+
+Certifications
+	•	Google Data Analytics Professional Certificate
+             
+	•	Tableau Desktop Specialist Certification
+	•	Microsoft Certified: Data Analyst Associate
+	•	[Any other relevant certifications]
+
+Projects (Optional)
+
+[Project Title]
+	•	Description of the project, tools used, and the impact or results achieved.
+
+[Project Title]
+	•	Description of the project, tools used, and the impact or results achieved.
+
+Interests (Optional)
+	•	[e.g., Data storytelling, Machine learning applications, Predictive analytics]
+
+References
+
+Available upon request.
+
+Tips:
+	1.	Tailor your CV: Customize your experience and skills to align with the job description.
+	2.	Keep it concise: Aim for 2 pages, focusing on relevant experience.
+	3.	Highlight achievements: Quantify outcomes where possible (e.g., increased efficiency by 20%, improved accuracy by 10%).
+	4.	Professional formatting: Use a clean, simple layout with consistent headings and bullet points.
+	5.	Check for accuracy: Ensure grammar, spelling, and dates are correct.
+
+Let me know if you’d like further refinements!
+
+..................................................................................

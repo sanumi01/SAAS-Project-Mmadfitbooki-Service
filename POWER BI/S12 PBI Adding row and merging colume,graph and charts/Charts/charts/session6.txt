@@ -1,0 +1,351 @@
+What is Data Visualization?
+
+* Data Visualization is a process of taking raw data and transforming it into graphical or pictorial representations such as charts, graphs, diagrams, pictures and videos which explain the data and allow you to gain insights from it. 
+
+* Users can quickly analyze the data and prepare reports to make business decisions effectively.
+
+Power BI Visualizations Types
+
+1.stacked bar chart
+
+2.stacked column chart
+
+3.clustered bar chart
+
+4.clustered column chart
+
+5.100 stacked bar chart
+
+6.100 stacked column chart
+
+7.line chart
+
+8.Area Chart
+
+9.Stacked area chart
+
+10.Lne and stacked column chart
+
+11.Line and Clustered column chart
+
+12.Ribbon chart
+
+13.Waterfall Chart
+
+14.funnel Chart
+
+15.Scatter Chart
+
+16.Pie charts
+
+17.Doughnut charts
+
+18.Tree map Chart
+
+19.Map Charts
+
+20.Filled Map charts
+
+21.Gauge Reports
+
+22.Card Chart
+
+23.Multi Row Card chart
+
+24.KPI chart 
+
+25.Slicer Chart
+
+26.Table Chart
+
+27.Matrix chart
+
+28.R Script visual
+
+29.Python Script visula
+
+30.Key influencers
+
+31.Decomposition Tree
+
+32.Q&A in power BI
+
+
+
+
+What is a stacked bar chart used for?
+
+* A stacked bar graph (or stacked bar chart) is a chart that uses bars to show comparisons between categories of data, but with ability to break down and compare parts of a whole. 
+
+* Each bar in the chart represents a whole, and segments in the bar represent different parts or categories of that whole
+
+
+What is a stacked column chart used for?
+
+* A stacked column chart is a basic Excel chart type to allow part-to-whole comparisons over time, or across categories.
+
+* In a stacked column chart, data series are stacked one on top of the other in vertical columns. 
+
+* Stacked column charts can show change over time because it's easy to compare total column lengths.
+
+
+What is a clustered bar chart used for?
+
+* A clustered bar chart is a chart when bars of different graphs are placed next to each other. It's a primary type of Excel chart; 
+
+* It is used to compare values across categories by using vertical or horizontal bars.
+
+
+What is a clustered column chart used for?
+
+* A clustered column chart displays more than one data series in clustered vertical columns. 
+
+* Each data series shares the same axis labels, so vertical bars are grouped by category. 
+
+* Clustered columns allow the direct comparison of multiple series, but they become visually complex quickly.
+
+
+What is a 100 stacked bar chart?
+
+* A 100% stacked bar chart is an Excel chart type designed to show the relative percentage of multiple data series in stacked bars, where the total (cumulative) of each stacked bar always equals 100%. 
+
+* Like a pie chart, a 100% stacked bar chart shows a part-to-whole relationship.
+
+
+What is a 100 stacked column chart?
+
+* A 100% stacked column chart is an Excel chart type meant to show the relative percentage of multiple data series in stacked columns, where the total (cumulative) of stacked columns always equals 100%.
+
+
+What does a line chart do?
+
+* A line graph (also known as a line plot or line chart) is a graph which uses lines to connect individual data points that display quantitative values over a specified time interval.
+
+* Line graphs use data point "markers" that are connected by straight lines to aid in visualization
+
+* It shows the exact value of the plotted data. 
+
+* Line charts should only be used to measure the trends over a period of time, e.g. dates, months, and years
+
+
+What is an Area Charts?
+
+* The area chart depends on line charts to display quantitative graphical data.
+
+*  The area between axis and lines are commonly filled with colors, textures, and patterns. 
+
+* We can compare more than two quantities with area charts. 
+
+* It shows the trend changes over time and can be used to attract the attention of the users to know the total changes across the trends.
+
+
+What is stacked area chart in power bi?
+
+* Stacked Area chart is often used to visualise a trend in data over intervals of time, the difference is that the Stacked Areas are used to display how several quantities combine to make a whole, 
+
+* It shows how each part or category contributes to the whole amount.
+
+What is line and stacked column chart?
+
+* The Line and Stacked Column Chart is a combo charts that combines the Line chart and Column chart together in one visual. 
+
+* By combining these two visuals together, you can make a very quick comparison between two sets of measures. 
+
+* The main benefit of this type of chart is that you can have one or two Y axes.
+
+
+What is line and Clustered column chart?
+
+* The Line and Clustered Column Chart is a combo charts that combines the Line chart and Column chart together in one visual. By combining these two visuals together, you can make a very quick comparison between two sets of measures.
+
+* The main benefit of this type of chart is that you can have one or two Y axes. 
+
+* This means is that you can either display two measures that would have the same Y axis, something like Total Sales and Profit. Or, we could show two measures that are based on completely different values such as Order Quantity and Profit.
+
+
+How do you use a ribbon chart?
+
+* We can create ribbon charts to visualize data, and quickly discover which data category has the highest rank (largest value). 
+
+* Ribbon charts are effective at showing rank change, with the highest range (value) always displayed on top for each time period.
+
+
+When would you use a waterfall chart?
+
+* A waterfall chart can be used for analytical purposes, especially for understanding or explaining the gradual transition in the quantitative value of an entity which is subjected to increment or decrement. O
+
+* A Waterfall or cascade chart is used to show changes in revenue or profit between two time periods.
+
+What is a funnel report?
+
+* The funnel chart is a type of chart which is used to visualize the data that flows from one phase to another phase.
+
+*  In the funnel chart, whole data is considered as 100%, and in each phase, it is represented as numerical propositions of the data.
+
+* A funnel report displays the visitor data collected for the funnel, which includes the number of visitors, conversion rates, and the overall performance of the funnel. 
+
+* A funnel report gives you the information on how the visitors progress through different stages and where they drop off.
+
+
+What are the applications areas of waterfall and funnel visualizations charts?
+
+* A funnel chart actually shows you values as you move from one series to the next, in the shape similar to a funnel. 
+
+* A waterfall chart shows you changes or variances over the course of a set of categories.
+
+
+What is a scatter chart used for?
+
+* A scatter plot (aka scatter chart, scatter graph) uses dots to represent values for two different numeric variables. 
+
+* The position of each dot on the horizontal and vertical axis indicates values for an individual data point. 
+
+* Scatter plots are used to observe relationships between variables.
+
+
+Pie Charts:
+-----------
+* Pie charts are generally used to show percentage or proportional data and usually the percentage represented by each category is provided next to the corresponding slice of pie.
+
+* A pie chart is a circular graph that is broken down into segments (i.e slices of pie). These segments represent each category's contribution to display parts of a whole.
+
+* They are best suited to show proportional or percentage relationships. 
+
+* When used in the right circumstance, pie charts can quickly show relative value to the other data points in the measure.
+
+
+ex1: Survery Results on Cloud Service Model
+
+ex2: Operating systems share,world wide Smart phone onlys.
+
+ex3: Percentage of Rawmaterial usage
+
+ex4: Percentage of Product usage..
+
+
+Doughnut charts in Power BI
+---------------------------
+
+* A doughnut chart is similar to a pie chart in that it shows the relationship of parts to a whole.
+
+*  The only difference is that the center is blank and allows space for a label or icon.
+
+
+What is a treemap in power bi?
+
+* Power BI Treemap is used to display the data in Rectangle Boxes. 
+
+* We can define the rectangle box using any Dimension column, and its size by Measure value.
+
+* The Tree maps in Power BI are very useful to display the largest data in a small region.
+
+* Treemap Chart is intended for the visualization of hierarchical data in the form of nested rectangles. 
+
+* Each level of such a tree structure is depicted as a colored rectangle, often called a branch, which contains other rectangles (leaves).
+
+ex: world population in 2019
+
+How do you do a map chart in power bi?
+
+Power BI utilizes two built-in map charts; Map and Filled Map. 
+
+* Power BI has special buckets to help make the map data unambiguous. Just drag the field that contains your latitude data into the Visualizations > Latitude area. And do the same for your longitude data. 
+
+* We can also need to fill the Location field when creating your visualizations.
+
+
+What is a filled map in power bi?
+
+* Filled Map is a map that shows data points as Geo-spatial areas rather than points on map. 
+
+* Areas can be continent, country, region, state, city, or county. 
+
+* Working with Filled Map however isn't as easy and convenient as the map chart
+
+
+What is gauge in power bi?
+
+* A gauge chart is also known as a speedometer or dial chart. 
+
+* It uses the needle to read the data, and it shows the information on a dial. 
+
+* In the gauge chart, it represents the value of each needle as it reads the data according to the axis or colored data.
+
+*  These charts are useful to compare the values between the variables either by using multiple needles on the same gauge or different gauges.
+
+
+
+What is a card in Power BI?
+
+* Sometimes a single number is the most important thing you want to track in your Power BI dashboard or report, such as total sales, market share year over year, or total opportunities. 
+
+* This type of visualization is called a Card.
+
+What is a multi row card?
+
+Power BI Multi-Row Card is useful to display the data in a Group format (or a section-wise). 
+
+What is KPI chart in power bi?
+
+* A Key Performance Indicator (KPI) is a visual cue that communicates the amount of progress made toward a measurable goal.
+
+
+
+What is a slicer?
+
+* Slicers charts are visual filters. 
+
+* Using slicers, you can filter or sort your data by clicking on the type of data you want.
+
+* In case if you want to see particular region sales, then click on that region, and it shows the specific region sales. 
+
+* For example, let's say you are looking at sales by customer profession in a pivot report.
+
+
+Table Chart
+===========
+
+* A Table is a grid that contains the related data in a series of rows and columns. 
+
+* Tables are useful if you are comparing the same category for many values. 
+
+Matrix Chart:
+--------------
+
+* A Matrix chart shows the relation between two or more variables in a data set. 
+
+* It is mainly made up of columns and rows to represent the data in the grid format. 
+
+* At least two variables are required to create a matrix chart if there is any third or fourth variable, and color or other dimensions that can be added to the matrix to represent the data.
+
+What is R script visual in power bi?
+
+* The Power BI service supports viewing and interacting with visuals created with R scripts. 
+
+* Visuals created with R scripts, commonly called R visuals, can present advanced data shaping and analytics such as forecasting, using the rich analytics and visualization power of R.
+
+
+Power BI visuals by using Python
+---------------------------
+
+* With Power BI Desktop, We can use Python to visualize your data.
+
+What is key influencers in power bi?
+
+* Key Influencers is Power BI's first Artificial Intelligence (AI) powered visualization. With Key Influencers now business users can gain insights on their data further leveraging Machine Learning capabilities.
+
+What is decomposition tree in power bi?
+
+
+* The decomposition tree visual in Power BI lets you visualize data across multiple dimensions. 
+
+* It automatically aggregates data and enables drilling down into your dimensions in any order.
+
+
+What is Q&A in power bi?
+
+
+* The Q&A visual allows you to ask natural language questions and get answers in the form of a visual.
+
+
+

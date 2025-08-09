@@ -1,0 +1,17 @@
+{
+  "Comment": "Update www record to point to S3 website",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "www.mamaadsolution.com",
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": "Z3BJ6K6RIION7M", 
+          "DNSName": "s3-website-us-west-2.amazonaws.com",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}

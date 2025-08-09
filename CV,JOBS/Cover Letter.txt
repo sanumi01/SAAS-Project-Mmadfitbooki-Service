@@ -1,0 +1,7 @@
+Dear Hiring Manager,
+
+I am excited to apply for the Data Analyst position at [Company Name]. With seven years of experience in data analysis, business intelligence, and reporting, I have honed my ability to extract, clean, and visualize complex datasets to support data-driven decision-making. My expertise includes SQL, Python, Power BI, Tableau, and ETL processes, allowing me to develop interactive dashboards, automate reporting workflows, and uncover actionable insights that drive business growth.
+In my previous role at Maoni solutions Limited I led a data-driven process enhancement initiative that reduced reporting time by 30%, improved forecast accuracy by 20%, and streamlined data pipeline efficiency using SQL optimization and Python scripting
+
+Sincerely,
+Kolade Adio

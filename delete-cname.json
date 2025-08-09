@@ -1,0 +1,18 @@
+{
+  "Comment": "Remove CNAME to allow Alias A record",
+  "Changes": [
+    {
+      "Action": "DELETE",
+      "ResourceRecordSet": {
+        "Name": "www.mamaadsolution.com",
+        "Type": "CNAME",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "mamaad-solution-website-376467672970.s3-website-us-west-2.amazonaws.com"
+          }
+        ]
+      }
+    }
+  ]
+}

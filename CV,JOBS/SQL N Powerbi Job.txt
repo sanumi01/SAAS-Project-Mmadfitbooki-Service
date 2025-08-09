@@ -1,0 +1,26 @@
+With SQL and Power BI certification, some of the best job roles you could consider include:
+
+1. Data Analyst:
+=================
+   This role involves analyzing data, generating reports, and visualizing data using Power BI, 
+   which is a perfect fit for your skills.
+
+2. Business Intelligence Analyst:
+==================================
+ In this position, you would focus on interpreting complex data and providing insights to help businesses make informed 
+decisions.
+
+3. Data Scientist:
+===================
+ While this role may require additional skills in statistics and machine learning, having SQL and Power BI knowledge is a 
+great foundation for data manipulation and visualization.
+
+4. Database Administrator:
+==========================
+ This role involves managing and maintaining databases, where SQL skills are essential for querying and managing data.
+
+5. Reporting Analyst: This job focuses on generating reports and dashboards, primarily using Power BI to present data 
+in a clear and actionable manner.
+
+Overall, roles that involve data analysis, reporting, and business intelligence would be highly suitable for someone 
+with SQL and Power BI certifications.

@@ -1,0 +1,124 @@
+SATYARANJAN MOHANTY
+
+ Cell: +XXXXXXXXXXXXX
+E-Mail: CCCCCCCCCCCCCC
+
+Business intelligence developer with over 2.5 years’ experience in corporate industry.
+
+Objective:
+
+Seeking a challenging environment that encourages continuous learning and creativity
+Provides exposure to new ideas and simulates personal and professional growth.
+
+Experience:
+
+Working as a BI Developer with Acumen Cybersoft India Pvt.Ltd , Hyderabad from Aug 2017 to till date.
+
+
+Project Summary: 
+
+Project#2:Key Skills:
+
+SQL Server,  Power BI
+
+
+Professional summary:
+
+➢	Having good experience in Microsoft Power BI Reporting Tool. 
+➢	Created Rich visualized Pie & Line Charts, Tree Map, Tabular and Matrix Reports Using Power BI.  
+➢	Experience on various Power BI Visuals and Visual Properties including Tree Map, Pie Chart, Funnel, Scatter Bar Chart and Column Charts.
+➢	Experience with Column (Field) Grouping, Hierarchies Creations and Usage.
+➢	Experience with Drill Ups, Drilldowns, and Expand Fields to next level and Expand All Levels.
+➢	Experience with Edit Interactions and Bookmarks including Buttons and Actions.
+➢	Working with various Visualizations for Maps and Interactive Visuals including Slicers and Visual Sync.
+➢	Experience on various Power BI Modeling Techniques using Power Query [M Language] and DAX.
+➢	Having good experience in DAX query Language.
+➢	Implement DAX Measures and Calculations for various Accounting Aggregations.
+➢	Implement DAX Quick Measures for categorizing the data based on given parameters.
+➢	Created, maintained & scheduled various reports in Power BI Desktop. 
+➢	Published Power BI reports from Power BI desktop to Power BI service.  
+➢	Extensively worked on Power BI Personal Gateways and Enterprise Gateways.  
+➢	Creating Power BI Dashboards with Tiles and Pins from Reports, Insights and Workbooks.
+➢	Creating and working with IMPORT and UPLOAD options for Dataset Creations.
+➢	Working with Power BI Report Server for Paginated Reports and Using Report Builder Tool.
+➢	Experience with Power BI Mobile Reports and Mobile / Phone Options in Desktop, Cloud.
+➢	Sharing Reports, Dashboards, Organizational Content Packs and App Workspace.
+➢	Created complex Stored Procedures, Tables and other SQL Joins and Statements for Applications.
+
+
+
+
+Project 		: Closed Loop Feedback
+Client 			: MTN
+Team Size		: 4	
+Role			: Power BI developer
+Duration		: Oct 2018 to till date.
+
+Description:
+
+Closed Loop Feedback is a system that gathers the customer’s complaints which are logged through either Service Center/Call Center 
+and performs surveys on those customer’s complaints by calling back to them in order to get their feedback on their issue 
+resolution and asking net promoter score(NPS) to the customer on their services provided in resolving their issues. 
+ Based on this NPS calculation and the feedback received from the customers the service providers can generate the reports 
+on the customer feedback received and can concentrate on enhancing or improving their services on which they are lacking. 
+This system will gives a clear picture to the service providers on which service areas they are depreciating and on which 
+area they have to concentrate more so that a customer will be more satisfied in order to increase their sales.
+
+Roles & Responsibilities:
+
+•	Created data modeling which include import tables and giving relationship between tables.
+•	Expert in Power Query for Advanced Edits, Grouping and Hierarchies.
+•	Experience in creating calculated measures and columns with DAX in Ms Power BI
+Desktop.
+•	Created custom visualizations in Power BI Desktop.
+•	Created filters and apply conditional formatting based on the user requirement.
+•	Created dashboards using Power BI which includes drillings, sorts etc.
+•	Implementation of Row Level Security By defining various Constraints for each defined role.
+•	Experience in Data gateways for data refreshing, Content Pack library.
+
+Environments: SQL server 2012, SQL Server Management Studio (SSMS), Power BI
+Desktop, Power BI Desktop RS, On-Premises Data Gateways.
+
+
+Project #1:
+Project Name 		 : LEO-Insurance
+Client			 : LEO-Insurance, US
+Team Size		 : 4
+Duration		 : Dec 2017 to Sept 2018
+Role 			 : Power Bi Developer
+
+Description:
+
+LEO-Insurance seeks assistance in setting up a consolidated reporting system to help LEO-Insurance management manage their operations better. LEO-Insurance is a new organization that needs to manage operations of two large and distinct insurance groups. Currently no one source of information either database or reports, contains the data needed to present management with all of the information desired for managing these operations. There is no guarantee that reports from the different insurance groups use the same definition for elements like line of business or premiums written. This initiative is an attempt to achieve consensus about these definitions. So that management is able to compare the performance of all their insurance groups.
+
+Roles & Responsibilities:
+
+•	Experience on publishing Power BI reports of dashboard in Power BI server and
+Scheduling the dataset to refresh for upcoming data in Power BI server.
+•	Experience in Grouping, Creating Hierarchies for Power bi reports using Data
+Visualizations like bar charts, Line charts, pie charts, cluster columns charts etc.
+
+•	Experience on various Power BI Visuals and Visual Properties including Tree Map, Pie
+Chart, Funnel, Scatter Bar Chart and Column Charts, Waterfall, Tree Map, Line charts.
+•	Working with Power BI Report Server for Paginated Reports and Using Report Builder
+Tool.
+•	Creating Power BI Dashboards with Tiles and Pins from Reports, Insights and Workbooks.
+•	Working with Data Gateways for Automated and Manual Data Refresh from on-premise.
+
+Environment: SQL server 2012, Visual Studio 2013/2014, SQL server
+Management Studio (SSMS), Power bi Desktop.
+									
+
+Education:
+
+Completed Bachelors in the stream of Computer Science and Engineering at GIIT,Berhampur  in 2015.
+
+Personal Information:
+
+Date of Birth		: 26-11-1993
+Sex			: Male
+Nationality		: Indian
+Marital status		: Single
+Languages Known	: English, Hindi , Odia and Bengali.
+
+

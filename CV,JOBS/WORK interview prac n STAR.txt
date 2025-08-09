@@ -1,0 +1,99 @@
+ Ten: WORK CV 
+
+Here’s a well-structured CV template tailored for a Data Analytics position in the UK. It adheres to UK CV standards 
+and highlights key skills, qualifications, and experience for the role.
+
+[Your Full Name]
+[Address Line 1] | [Address Line 2] | [City, Postcode]
+[Email Address] | [Phone Number] | [LinkedIn Profile] | [GitHub/Portfolio Website]
+
+Professional Profile
+=======================
+
+A results-driven and detail-oriented Data Analyst with [X years] of experience in leveraging data insights to drive 
+business growth and efficiency. Skilled in data visualization, statistical analysis, and advanced data modeling techniques. Proficient in tools like Python, SQL, and Tableau, with a proven track record of delivering actionable insights in [industry, e.g., finance, healthcar…
+[13:15, 15/01/2025] AD Ten: The STAR (Situation, Task, Action, Result) technique is an effective method for answering 
+interview questions, particularly for behavioral interviews in data analytics roles. Here’s how to apply it:
+
+                                    Situation
+                                =================
+
+Describe the context or background of the scenario. Be specific and provide enough details for the interviewer to 
+understand the situation.
+
+    Example:
+    =========
+“In my previous role at [Company Name], the marketing team faced challenges understanding customer behavior, which led 
+to suboptimal campaign performance.”
+
+                                 Task
+                             =============
+
+Explain your responsibility or goal in that situation. Focus on the role you played and what you aimed to achieve.
+
+Example:
+“I was tasked with analyzing customer data to identify trends and provide actionable insights to improve campaign 
+targeting.”
+
+                            Action
+                        ============
+
+Detail the steps you took to address the task. Highlight the tools, techniques, and methodologies you used and emphasize 
+your contributions.
+
+    Example:
+   ========
+“I extracted customer data from the company’s database using SQL, cleaned and analyzed the data in Python, and identified
+ key purchasing patterns. I then visualized the insights in Tableau, focusing on customer segmentation based on behavior.”
+
+                               Result
+                            ===============
+
+Share the outcome of your actions. Quantify the impact if possible, such as cost savings, increased revenue, or process 
+improvements.
+
+Example:
+“The insights led to a 25% improvement in the targeting accuracy of campaigns, resulting in a 15% increase in customer 
+engagement and a 10% growth in sales within the first quarter.”
+
+Sample STAR Answers for Data Analytics
+
+Question: Tell me about a time you used data to solve a complex problem.
+	•	Situation: “At [Company Name], we noticed a sudden decline in customer retention, but we didn’t know why.”
+	•	Task: “I was assigned to investigate the issue and provide recommendations to address it.”
+	•	Action: “I gathered customer feedback surveys and transaction data, analyzed patterns using Python, and
+                created a dashboard in Power BI to visualize trends. I discovered that most churned customers were
+                dissatisfied with delayed shipping times.”
+	•	Result: “Based on my findings, the operations team optimized delivery schedules, reducing delays by 30%. 
+                Retention rates improved by 20% over the next six months.”
+
+Question: Describe a time when you automated a process.
+	•	Situation: “Our team spent hours each week manually creating sales reports.”
+	•	Task: “I was responsible for finding a way to automate the reporting process to save time.”
+	•	Action: “I wrote a Python script that pulled data from our SQL database, performed the necessary 
+                transformations, and generated automated Excel reports with visualizations.”
+	•	Result: “This automation reduced report generation time from 5 hours to 30 minutes weekly, allowing the 
+                team to focus on strategic analysis.”
+
+Question: Give an example of a challenging data analytics project you worked on.
+	•	Situation: “During a product launch, we needed to predict demand accurately to avoid stockouts or 
+                 overproduction.”
+	•	Task: “I was tasked with building a predictive model to forecast demand.”
+	•	Action: “I aggregated historical sales data, cleaned it using Python, and developed a time series 
+                forecasting model using ARIMA. I validated the model against previous data and collaborated with the
+                supply chain team to align inventory planning.”
+	•	Result: “The model accurately predicted demand within a 5% error margin, helping the company avoid 
+                overproduction and save £50,000 in inventory costs.”
+
+Tips for STAR in Data Analytics Interviews
+	1.	Focus on relevance: Align your examples with the job description (e.g., problem-solving, automation, 
+                or visualization).
+	2.	Highlight technical skills: Mention the tools (e.g., Python, SQL, Tableau) and methodologies
+                (e.g., regression analysis, clustering) you used.
+	3.	Quantify outcomes: Show the value of your work with specific metrics (e.g., time saved, revenue increased,
+                errors reduced).
+	4.	Be concise: Stick to the STAR structure to ensure your answer is clear and focused.
+	5.	Prepare examples: Practice 3-5 STAR stories relevant to common data analytics scenarios like 
+                problem-solving, automation, stakeholder communication, and handling large datasets.
+
+Let me know if you’d like help crafting specific STAR examples!

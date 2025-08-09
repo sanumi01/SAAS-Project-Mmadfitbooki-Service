@@ -1,0 +1,74 @@
+create a website to host and lunch with my s3 bucket with the website ABOUT A CLOUD SOLUTIONS CONSULTANT name MAMAAD CONSULTANT LIMITED .. WITH THE SENIOR DIRECTOR NAME Mr Kolade Adio AND THE THE CO DIRECTOR MISS MAYA ADIO AND MISS MEGGY ADIO .. LOCATED IN LARKHALL SCOTLAND UNITED KINGDON. CREATE A HEADER WITH THE BODY AND THE FOOTER for the websiten and create a link for a form for customer equiries or contact to the company on the website
+using this information for the company and use this informtation  to create idea about the company seervice and summary Professional Summary
+Results-driven Data, Cloud, and Business Intelligence Professional with 9+ years of experience across data analytics, database engineering, cloud infrastructure, and enterprise system implementation. Proven expertise in building, integrating, and optimizing robust database solutions within cloud-native and hybrid enterprise environments. Proficient in SQL, PostgreSQL, NoSQL, and Python, with hands-on experience implementing DevOps practices, automation, and container orchestration using Kubernetes and Docker. Skilled in delivering end-to-end business intelligence solutions using Power BI and Tableau to drive data-informed decisions. Currently focused on exploring and adopting NewSQL technologies such as CockroachDB and YugabyteDB for scalable, distributed database systems. Adept at aligning data platforms with business strategy to drive transformation, operational efficiency, and innovation. 
+Core Skills
+Database Engineering & Integration: PostgreSQL, MySQL, Snowflake, DynamoDB, NoSQL / NewSQL (CockroachDB, YugabyteDB – willing to skill up),Data Warehousing, ETL Pipelines, Data Lake & Lakehouse, Schema Design, Query Optimization, Replication & Failover Programming & Scripting:, Python (Pandas, NumPy, automation, ETL scripting),Bash/Linux Shell scripting,Cloud & DevOps:, AWS/Azure (RDS, EC2, S3, Lambda, VPC, IAM), CI/CD – Git, AWS CLI, CloudFormation, DevOps principles, Kubernetes (K8s), Docker, Linux administration
+Business Intelligence & Analytics:,Power BI, Tableau, SAS, SQL-based analytics, Data Visualization, Dashboarding, Predictive Analyt
+
+
+ Services Section (<section id="services">)
+Name: Our Services
+Content (Body):
+Break down your offerings into bullet points or brief service descriptions:
+
+Cloud Infrastructure (AWS/Azure)
+
+Data Engineering (PostgreSQL, NewSQL, Schema design)
+
+BI & Analytics (Power BI, Tableau)
+
+DevOps & Automation (CI/CD, Docker, Kubernetes)
+
+Cloud Security (IAM, Policy enforcement)
+
+Cloud Migration & Integration
+
+ETL, Data Lake, Data Warehouse
+
+Predictive Analytics
+
+ Contact Section (<section id="contact">)
+Name: Contact Us
+Content (Body):
+
+Short text encouraging visitors to reach out
+
+A button/link to a customer enquiry form
+
+Optional contact email or phone number
+
+ Example:
+
+Have questions or need a tailored solution? Use our contact form to get in touch with our team.
+
+ Footer Section (<footer>)
+Name: Company Info & Directors
+Content (Body):
+
+Company name and location
+
+Legal info: “© 2025 Mamaad Consultant Limited”
+
+Team section:
+
+Mr. Kolade Adio – Senior Director
+
+Miss Maya Adio – Co-Director
+
+Miss Meggy Adio – Co-Director
+
+ Suggested Contact Form Fields (contact-form.html)
+You can name this file: contact-form.html.
+
+Form Fields
+Full Name
+
+Email Address
+
+Phone Number (optional)
+
+Company Name (optional)
+
+Message / Enquiry
+
+Submit Button
