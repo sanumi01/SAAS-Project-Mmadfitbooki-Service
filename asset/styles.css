@@ -1,0 +1,19 @@
+﻿.gradient-bg {
+    background: linear-gradient(135deg, #3B82F6 0%, #1E40AF 100%);
+}
+.marketplace-gradient {
+    background: linear-gradient(135deg, #8B5CF6 0%, #F59E0B 100%);
+}
+.service-gradient {
+    background: linear-gradient(135deg, #EF4444 0%, #3B82F6 100%);
+}
+.card-hover {
+    transition: all 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);
+}
+.service-animation {
+    animation: pulse 2s infinite;
+}
