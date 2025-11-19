@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MMAD FitBooki - Smart Fitness Scheduling</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#086ADD', // Primary blue
+              'brand-secondary': '#0A4F9E', // Secondary blue
+              'brand-light': '#E6F3FF', // Light blue
+              'brand-accent': '#4A90E2', // Accent blue
+              'background-dark': '#003366', // Dark blue background
+              'surface-dark': '#0A4F9E', // Secondary blue surface
+              'border-dark': '#086ADD', // Primary blue borders
+              'text-primary': '#FFFFFF', // White text
+              'text-secondary': '#E6F3FF', // Light blue text
+              'neutral-white': '#FFFFFF',
+              'neutral-gray': '#F5F5F5',
+            },
+            keyframes: {
+              'fade-in': {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+            animation: {
+              'fade-in': 'fade-in 0.5s ease-out forwards',
+            },
+          },
+        },
+      }
+    </script>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-DWB2pJdQ.js"></script>
+</head>
+  <body class="bg-gradient-to-br from-brand-primary to-background-dark">
+    <div id="root"></div>
+  </body>
+</html>
