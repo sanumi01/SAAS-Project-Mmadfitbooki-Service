@@ -1,0 +1,5 @@
+- [ ] Confirm visual styles on main flows (Header, Login, Booking, Admin).
+- [ ] Keyboard test: Tab through interactive elements (buttons, inputs, links).
+- [ ] Screen-reader smoke test for updated components (labels/aria live regions).
+- [ ] Run `npm run build` and open `dist/bundle-visualizer.html` to review bundle split.
+- [ ] Approve reviewers and merge after approvals.
