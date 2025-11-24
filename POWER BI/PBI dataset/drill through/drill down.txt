@@ -1,0 +1,9 @@
+Define drilldown reports 
+------------------------
+
+* Drill-down is a mechanism of decomposing summarized information to a detailed level.
+
+* The reports which are expanded according to the requirement are known as a drill down report.
+
+* You get the row level data after expanding it. 
+

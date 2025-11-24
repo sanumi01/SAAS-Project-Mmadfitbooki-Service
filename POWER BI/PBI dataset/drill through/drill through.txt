@@ -1,0 +1,50 @@
+What do you mean by drill through report?
+
+* A drillthrough report is a report that a user opens by clicking a link within another report. 
+
+* Drillthrough reports commonly contain details about an item that is contained in an original summary report. 
+
+* For example the sales summary report lists sales orders and totals.
+
+
+What is difference between drill down and drill through report?
+
+* Drill down is a capability that takes the user from a more general view of the data to a more specific one at the click of a mouse. 
+
+* Instead of taking the user to a more granular level of the data, drill through takes him to a report that is relevant to the data being analyzed, also at the click of a mouse.
+
+How does power bi drill down work?
+
+How to Create Drill Up and Drill Down Reports in Power BI
+
+    1. Go to the Data / Drill tab to see these properties.
+    
+    2.If your data has multiple levels, then these buttons displayed at the top left corner.
+
+    3.Right-click on the report show the context menu. You can use this menu to select the levels.
+
+
+How do you remove a drill from power bi?
+
+RE: Disable Interactive/Drillthrough in Power BI Report
+
+Another is from the Power BI Desktop, go to "File - Options and Settings - Options - Report Settings". There you have the export settings for that Report.
+
+
+In what scenarios can you drill up and down in a report?
+
+* Drill up and drill down is available only when you are using dimensionally structured data and viewing the report in HTML format. 
+
+* Furthermore, you can only drill on members in a level. For more information about members, levels, and other dimensional objects, see Add Data to a Report.
+
+What is drill across?
+
+
+Drilling-across is the process by which you can drill from one application to another from your data visualizations. From the visualization below, a user can automatically drill across into a CRM system using the correct customer number.
+
+
+What is the drill down technique?
+
+* Drill down is a simple technique for breaking complex problems down into progressively smaller parts. To use the technique, start by writing the problem down on the left-hand side of a large sheet of paper. A little to the right of this, write down a list of points relating to the problem.
+
+

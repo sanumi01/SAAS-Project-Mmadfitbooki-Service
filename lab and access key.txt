@@ -1,0 +1,23 @@
+
+Access key  : AKIAVPJZYZ6FACH2UA6O
+
+Secret access key : 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
+
+
+"Id": "/hostedzone/Z08121774K3V955GRJ7Y",
+
+
+www.mamaadsolution-deploy.s3.us-west-2.amazonaws.com
+
+d1lt283cgpndzz.cloudfront.net
+
+KC - Assessment Scenario Certification Preparation (513908)
+
+.......LAB....................
+
+Machine Learning and Artificial Intelligence
+315-[AP]-Performing ETL on a Dataset by Using AWS Glue    (data analysis)
+314-[AP]-Lab- Breaking a Monolithic App into Microservices (513879)
+312-[AP]-Lab- Monitoring and Alerting with CloudTrail and CloudWatch (513877)
+316-[AI]-Lab- Amazon SageMaker - Training a machine-learning model (513881)
+1-[CF]-Lab - Sandbox Environment (522300)

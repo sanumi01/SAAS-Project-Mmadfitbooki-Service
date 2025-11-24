@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: MMAD Platform S3 Static Website Hosting
+
+Parameters:
+  BucketName:
+    Type: String
+    Description: Name for the S3 bucket (must be globally unique)
+
+Resources:
+  MMADSiteBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref BucketName
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: index.html
+
+  MMADSiteBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref MMADSiteBucket
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Sid: PublicReadGetObject
+            Effect: Allow
+            Principal: "*"
+            Action: s3:GetObject
+            Resource: !Sub "arn:aws:s3:::${BucketName}/*"
+
+Outputs:
+  WebsiteURL:
+    Description: "MMAD Platform Website URL"
+    Value: !GetAtt MMADSiteBucket.WebsiteURL
