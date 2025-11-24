@@ -106,7 +106,9 @@ export const Calendar: React.FC<CalendarProps> = ({
             <button
               key={index}
               type="button"
-              className={`${baseClasses} ${stateClasses} focus-ring`}
+              className={
+          
+          `${baseClasses} ${stateClasses} focus-ring`}
               onClick={() => !isPast && isCurrentMonth && onDateSelect(day)}
               onKeyDown={(e) => { if ((e.key === 'Enter' || e.key === ' ') && !isPast && isCurrentMonth) { e.preventDefault(); onDateSelect(day); } }}
               title={dayTitle}
