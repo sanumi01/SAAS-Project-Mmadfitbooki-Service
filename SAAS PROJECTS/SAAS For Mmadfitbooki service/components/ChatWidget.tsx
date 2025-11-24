@@ -104,6 +104,7 @@ export const ChatWidget: React.FC = () => {
                 onClick={() => setIsOpen(!isOpen)}
                 className="fixed bottom-6 right-6 bg-brand-primary text-white p-3 rounded-full shadow-lg hover:bg-brand-secondary transition-transform transform hover:scale-110 z-20 focus-ring"
                 aria-label={isOpen ? "Close chat" : "Open chat"}
+                type="button"
             >
                 {isOpen ? <CloseIcon className="w-8 h-8" /> : <ChatIcon className="w-8 h-8" />}
             </button>

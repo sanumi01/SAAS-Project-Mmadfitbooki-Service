@@ -47,16 +47,18 @@ export const BookingList: React.FC<BookingListProps> = ({ bookings, onReschedule
                     {booking.date >= now && (
                         <>
                             <button
-                                onClick={() => onReschedule(booking)}
-                                className="text-brand-primary hover:underline text-sm font-semibold"
+                              onClick={() => onReschedule(booking)}
+                              className="text-brand-primary hover:underline text-sm font-semibold focus-ring"
+                              type="button"
                             >
-                                Reschedule
+                              Reschedule
                             </button>
                             <button
-                                onClick={() => onCancel(booking)}
-                                className="text-red-500 hover:underline text-sm font-semibold"
+                              onClick={() => onCancel(booking)}
+                              className="text-red-500 hover:underline text-sm font-semibold focus-ring"
+                              type="button"
                             >
-                                Cancel
+                              Cancel
                             </button>
                         </>
                     )}
