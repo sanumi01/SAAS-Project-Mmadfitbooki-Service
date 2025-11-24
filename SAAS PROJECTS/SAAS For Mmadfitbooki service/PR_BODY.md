@@ -1,3 +1,27 @@
+## PR: Accessibility — focus-ring sweep and handler fixes
+
+This PR contains focused accessibility fixes and supporting audit artifacts.
+
+What changed:
+- Repaired malformed JSX event handler syntax introduced by a prior automated applier (fixed ~20 files).
+- Ensured interactive elements that were unintentionally changed now compile and the app builds.
+- Added audit artifacts to help reviewers: `focus-scan.txt`, `build-log.txt`, `AUDIT_REPORT.md`.
+
+Why:
+- Programmatic applier introduced invalid JSX which caused the production build to fail. The fixes restore correct handlers and keep the `focus-ring` utility on interactive controls where appropriate.
+
+Testing notes:
+- Build: `npm run build` (succeeds)
+- Lint: `npm run lint` (succeeds)
+- Keyboard test: run dev server and tab through interactive elements to validate focus styles.
+
+Backup & safety:
+- A backup branch `backup/mass-delete-20251124-213622` contains the original mass-deletions commit. Nothing destructive was pushed from that commit.
+
+Files to review:
+- `AUDIT_REPORT.md`, `focus-scan.txt`, `build-log.txt` (attached to the branch)
+
+Please review the flagged items in `focus-scan.txt` and advise which elements should intentionally not receive `focus-ring` (false positives). After that I can continue applying targeted fixes or open follow-up PRs.
 ## PR: Accessibility & Contrast Improvements + Focus Utility + Code-Splitting
 
 ### Summary
