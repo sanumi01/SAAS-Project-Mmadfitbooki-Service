@@ -1,3 +1,50 @@
+:root {
+  /* Convenience aliases for spacing utilities */
+}
+
+/* Spacing utilities */
+.m-0 { margin: 0 !important; }
+.mt-1 { margin-top: var(--space-1) !important; }
+.mt-2 { margin-top: var(--space-2) !important; }
+.mt-3 { margin-top: var(--space-3) !important; }
+.mt-4 { margin-top: var(--space-4) !important; }
+.mb-4 { margin-bottom: var(--space-4) !important; }
+.p-2 { padding: var(--space-2) !important; }
+.p-3 { padding: var(--space-3) !important; }
+.p-4 { padding: var(--space-4) !important; }
+
+/* Text utilities */
+.text-xs { font-size: var(--text-xs) !important; }
+.text-sm { font-size: var(--text-sm) !important; }
+.text-base { font-size: var(--text-base) !important; }
+.text-lg { font-size: var(--text-lg) !important; }
+
+/* Display & layout */
+.d-block { display: block !important; }
+.d-inline { display: inline !important; }
+.d-inline-flex { display: inline-flex !important; }
+.center { display: flex !important; align-items: center; justify-content: center; }
+
+/* Utility for visually-hidden content (screen-reader only) */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Color utilities (small set) */
+.text-muted { color: var(--neutral-500) !important; }
+.text-primary { color: var(--color-primary) !important; }
+.bg-muted { background: var(--muted) !important; }
+
+/* Focus ring helper (re-export in utilities) */
+.focus-ring { caret-color: auto; }
 /*
   MMAD FitBooki — Utilities
   - Spacing utilities (margin/padding)
