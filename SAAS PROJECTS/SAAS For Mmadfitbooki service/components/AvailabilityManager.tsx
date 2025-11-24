@@ -165,12 +165,12 @@ export const AvailabilityManager: React.FC<AvailabilityManagerProps> = ({ select
                 <div className="grid md:grid-cols-2 gap-8">
                     <div>
                          <div className="flex justify-between items-center mb-4">
-                            <button onClick={prevMonth} aria-label="Previous month" title="Previous month" className="p-2 rounded-full hover:bg-border-dark focus-ring"><ChevronLeftIcon className="w-5 h-5"/></button>
+                            <button type="button" onClick={prevMonth} aria-label="Previous month" title="Previous month" className="p-2 rounded-full hover:bg-border-dark focus-ring"><ChevronLeftIcon className="w-5 h-5"/></button>
                             <div className="text-center">
                                 <h3 className="font-semibold">{currentMonth.toLocaleString('default', { month: 'long', year: 'numeric' })}</h3>
-                                <button onClick={goToToday} className="text-xs text-brand-primary hover:underline focus-ring">Today</button>
+                                <button type="button" onClick={goToToday} className="text-xs text-brand-primary hover:underline focus-ring">Today</button>
                             </div>
-                            <button onClick={nextMonth} aria-label="Next month" title="Next month" className="p-2 rounded-full hover:bg-border-dark focus-ring"><ChevronRightIcon className="w-5 h-5"/></button>
+                            <button type="button" onClick={nextMonth} aria-label="Next month" title="Next month" className="p-2 rounded-full hover:bg-border-dark focus-ring"><ChevronRightIcon className="w-5 h-5"/></button>
                         </div>
                         <div className="grid grid-cols-7 gap-1 text-center text-xs text-text-primary/80">
                             {['S', 'M', 'T', 'W', 'T', 'F', 'S'].map((d, i) => <div key={i} className="w-10 h-10 flex items-center justify-center">{d}</div>)}
@@ -221,6 +221,7 @@ export const AvailabilityManager: React.FC<AvailabilityManagerProps> = ({ select
                                 </button>
                             </div>
                             <button 
+                                type="button"
                                 onClick={handleResetSchedule}
                                 className="w-full bg-surface-dark border border-border-dark text-red-500 text-sm py-2 rounded-md hover:bg-border-dark transition-colors font-semibold focus-ring"
                             >
