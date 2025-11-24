@@ -16,7 +16,8 @@ const NavButton: React.FC<{
   onClick: () => void;
 }> = ({ label, isActive, onClick }) => (
   <button
-    onClick={onClick}
+      type="button"
+      onClick={onClick}
     aria-current={isActive ? 'page' : undefined}
     className={`px-4 py-2 text-sm font-medium rounded-md transition-all duration-200 focus:outline-none focus-ring ${
       isActive
@@ -90,7 +91,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, setView }) => {
                         <p className="text-sm font-medium text-text-primary">{currentUser.name}</p>
                         <p className="text-xs text-brand-primary font-semibold">{currentUser.role}</p>
                     </div>
-                    <button onClick={logout} className="p-2 text-text-primary/80 hover:text-text-primary rounded-full hover:bg-surface-dark transition-colors" aria-label="Logout">
+                    <button type="button" onClick={logout} className="p-2 text-text-primary/80 hover:text-text-primary rounded-full hover:bg-surface-dark transition-colors focus-ring" aria-label="Logout">
                         <LogoutIcon className="w-6 h-6" />
                     </button>
                 </div>
@@ -104,7 +105,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, setView }) => {
         <div className="md:hidden flex items-center justify-between py-2 space-x-1">
              <div className="flex items-center space-x-1 overflow-x-auto">
                  {availableNavs.map(nav => (
-                    <NavButton key={nav.view} label={nav.label} isActive={currentView === nav.view} onClick={() => setView(nav.view)} />
+                  <NavButton key={nav.view} label={nav.label} isActive={currentView === nav.view} onClick={() => setView(nav.view)} />
                 ))}
             </div>
              {!currentUser && (
