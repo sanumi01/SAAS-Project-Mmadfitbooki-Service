@@ -57,13 +57,13 @@ export const Calendar: React.FC<CalendarProps> = ({
     <Card>
       <h2 className="text-2xl font-bold text-text-primary mb-4">2. Select a Date</h2>
       <div className="flex justify-between items-center mb-4">
-        <button onClick={prevMonth} aria-label="Previous month" title="Previous month" className="p-2 rounded-full hover:bg-border-dark focus-ring">
+        <button type="button" onClick={prevMonth} aria-label="Previous month" title="Previous month" className="p-2 rounded-full hover:bg-border-dark focus-ring">
           <ChevronLeftIcon className="w-5 h-5 text-text-primary/80"/>
         </button>
         <h3 className="text-lg font-semibold text-text-primary">
           {currentMonth.toLocaleString('default', { month: 'long', year: 'numeric' })}
         </h3>
-        <button onClick={nextMonth} aria-label="Next month" title="Next month" className="p-2 rounded-full hover:bg-border-dark focus-ring">
+        <button type="button" onClick={nextMonth} aria-label="Next month" title="Next month" className="p-2 rounded-full hover:bg-border-dark focus-ring">
           <ChevronRightIcon className="w-5 h-5 text-text-primary/80"/>
         </button>
       </div>
