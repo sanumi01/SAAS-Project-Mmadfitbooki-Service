@@ -107,7 +107,7 @@ export const ServicePricingManager: React.FC = () => {
                       <input
                         type="number"
                         value={editPrice}
-                        onChange={(e) = className="focus-ring"> setEditPrice(e.target.value)}
+                        onChange={(e) => setEditPrice(e.target.value)}
                         className="w-20 px-2 py-1 border border-gray-300 rounded focus-ring"
                         min="0"
                         step="0.01"
@@ -125,7 +125,7 @@ export const ServicePricingManager: React.FC = () => {
                     <div className="flex space-x-2">
                       <button
                         type="button"
-                        onClick={() = className="focus-ring"> handleSave(service.id)}
+                        onClick={() => handleSave(service.id)}
                         disabled={loading}
                         className="px-3 py-1 bg-green-600 text-white rounded hover:bg-green-700 disabled:opacity-50 text-sm font-medium focus-ring"
                         aria-label={`Save price for ${service.name}`}
@@ -143,7 +143,7 @@ export const ServicePricingManager: React.FC = () => {
                   ) : (
                     <button
                       type="button"
-                      onClick={() = className="focus-ring"> handleEditStart(service)}
+                      onClick={() => handleEditStart(service)}
                       className="px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm font-medium focus-ring"
                       aria-label={`Edit price for ${service.name}`}
                     >

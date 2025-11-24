@@ -50,8 +50,8 @@ export const CustomerDashboardView: React.FC<CustomerDashboardViewProps> = ({ se
              <Card>
                 <h2 className="text-2xl font-bold text-text-primary mb-4">Quick Links</h2>
                 <div className="flex flex-wrap gap-4">
-                    <button type="button" onClick={() = className="focus-ring"> setView(AppView.WORKOUT_PLANNER)} className="px-3 py-2 bg-brand-primary text-white rounded-md hover:opacity-90 shadow-sm focus-ring">AI Workout Planner</button>
-                    <button type="button" onClick={() = className="focus-ring"> setView(AppView.ACCOUNT)} className="px-3 py-2 border border-brand-primary text-brand-primary rounded-md hover:bg-brand-primary/5 font-semibold focus-ring">My Account</button>
+                    <button type="button" onClick={() => setView(AppView.WORKOUT_PLANNER)} className="px-3 py-2 bg-brand-primary text-white rounded-md hover:opacity-90 shadow-sm focus-ring">AI Workout Planner</button>
+                    <button type="button" onClick={() => setView(AppView.ACCOUNT)} className="px-3 py-2 border border-brand-primary text-brand-primary rounded-md hover:bg-brand-primary/5 font-semibold focus-ring">My Account</button>
                 </div>
             </Card>
         </div>

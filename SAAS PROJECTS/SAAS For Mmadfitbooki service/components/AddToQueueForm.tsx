@@ -26,7 +26,7 @@ export const AddToQueueForm: React.FC<AddToQueueFormProps> = ({ onAddToQueue }) 
         <input
           type="text"
           value={name}
-          onChange={(e) = className="focus-ring"> setName(e.target.value)}
+          onChange={(e) => setName(e.target.value)}
           placeholder="Client Name"
           required
           className="flex-grow bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition"
@@ -34,7 +34,7 @@ export const AddToQueueForm: React.FC<AddToQueueFormProps> = ({ onAddToQueue }) 
         <input
           type="text"
           value={service}
-          onChange={(e) = className="focus-ring"> setService(e.target.value)}
+          onChange={(e) => setService(e.target.value)}
           placeholder="Service (e.g., Consultation)"
           required
           className="flex-grow bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition"

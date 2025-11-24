@@ -28,7 +28,7 @@ export const TimeSlotPicker: React.FC<TimeSlotPickerProps> = ({ timeSlots, selec
               key={slot.time}
               type="button"
               disabled={!slot.available}
-              onClick={() = className="focus-ring"> onTimeSelect(slot.time)}
+              onClick={() => onTimeSelect(slot.time)}
               className={`p-2 rounded-md font-medium text-sm transition-all duration-200 focus-ring ${
                 !slot.available
                   ? 'bg-border-dark text-text-primary/80 cursor-not-allowed opacity-50'

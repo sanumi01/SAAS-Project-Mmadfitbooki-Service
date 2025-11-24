@@ -24,7 +24,7 @@ const RadioGroup: React.FC<{ options: string[], selected: string, onChange: (val
             <button
                 key={option}
                 type="button"
-                onClick={() = className="focus-ring"> onChange(option)}
+                onClick={() => onChange(option)}
                 className={`px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 ${
                     selected === option 
                     ? 'bg-brand-primary text-white' 
@@ -61,7 +61,7 @@ const EquipmentSelector: React.FC<{ selected: string[], onChange: (value: string
                  <button
                     key={item}
                     type="button"
-                    onClick={() = className="focus-ring"> handleToggle(item)}
+                    onClick={() => handleToggle(item)}
                     className={`px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 border ${
                         selected.includes(item)
                         ? 'bg-brand-primary border-brand-primary text-white' 

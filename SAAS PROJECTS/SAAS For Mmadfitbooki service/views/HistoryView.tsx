@@ -22,7 +22,7 @@ const BookingCard: React.FC<{ booking: Booking; isUpcoming: boolean; onCancel: (
                         {isUpcoming && (
                             <button
                                 type="button"
-                                onClick={() = className="focus-ring"> onCancel(booking)}
+                                onClick={() => onCancel(booking)}
                                 className="text-sm font-semibold text-red-500 hover:underline focus-ring"
                                 aria-label={`Cancel booking ${booking.bookingId}`}
                             >

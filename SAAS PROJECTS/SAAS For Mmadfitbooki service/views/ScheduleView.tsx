@@ -106,7 +106,7 @@ export const ScheduleView: React.FC = () => {
             
             <Card>
                  <div className="flex justify-between items-center mb-6 border-b border-border-dark pb-4">
-                    <button type="button" onClick={() = className="focus-ring"> handleDateChange(-1)} className="p-2 rounded-full hover:bg-border-dark focus-ring" aria-label="Previous day">
+                    <button type="button" onClick={() => handleDateChange(-1)} className="p-2 rounded-full hover:bg-border-dark focus-ring" aria-label="Previous day">
                         <ChevronLeftIcon className="w-6 h-6 text-text-primary/80"/>
                     </button>
                     <div className="text-center">
@@ -115,7 +115,7 @@ export const ScheduleView: React.FC = () => {
                         </h2>
                         <button type="button" onClick={goToToday} className="text-sm text-brand-primary hover:underline focus-ring">Go to Today</button>
                     </div>
-                    <button type="button" onClick={() = className="focus-ring"> handleDateChange(1)} className="p-2 rounded-full hover:bg-border-dark focus-ring" aria-label="Next day">
+                    <button type="button" onClick={() => handleDateChange(1)} className="p-2 rounded-full hover:bg-border-dark focus-ring" aria-label="Next day">
                         <ChevronRightIcon className="w-6 h-6 text-text-primary/80"/>
                     </button>
                 </div>

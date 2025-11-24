@@ -21,7 +21,7 @@ const RadioGroup: React.FC<{ options: string[], selected: string, onChange: (val
             <button
                 key={option}
                 type="button"
-                onClick={() = className="focus-ring"> onChange(option)}
+                onClick={() => onChange(option)}
                 className={`px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 ${selected === option ? 'bg-brand-primary text-white' : 'bg-surface-dark text-text-primary/80 hover:bg-border-dark hover:text-text-primary'} focus-ring`}
                 aria-pressed={selected === option ? 'true' : 'false'}
             >

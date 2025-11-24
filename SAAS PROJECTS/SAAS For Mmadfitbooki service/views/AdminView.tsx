@@ -292,7 +292,7 @@ export const ManagementView: React.FC = () => {
                           type="text"
                           placeholder="Search by client or trainer name..."
                           value={bookingSearchInput}
-                          onChange={(e) = className="focus-ring"> setBookingSearchInput(e.target.value)}
+                          onChange={(e) => setBookingSearchInput(e.target.value)}
                           className="w-full bg-background-dark border border-border-dark rounded pl-10 pr-4 py-2 text-text-primary focus-ring transition"
                         />
                     </div>
@@ -322,13 +322,13 @@ export const ManagementView: React.FC = () => {
                           type="text"
                           placeholder="Search by name, specialty, or bio..."
                           value={staffSearchInput}
-                          onChange={(e) = className="focus-ring"> setStaffSearchInput(e.target.value)}
+                          onChange={(e) => setStaffSearchInput(e.target.value)}
                           className="w-full bg-background-dark border border-border-dark rounded pl-10 pr-10 py-2 text-text-primary focus-ring transition"
                         />
                       {staffSearchInput && (
                         <button 
                           type="button"
-                          onClick={() = className="focus-ring"> setStaffSearchInput('')} 
+                          onClick={() => setStaffSearchInput('')} 
                           className="absolute inset-y-0 right-0 flex items-center pr-3 focus-ring"
                           aria-label="Clear search"
                         >

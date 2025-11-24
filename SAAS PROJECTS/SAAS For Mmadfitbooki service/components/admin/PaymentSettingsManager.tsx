@@ -84,7 +84,7 @@ export const PaymentSettingsManager: React.FC = () => {
                 <input
                   type="checkbox"
                   checked={method.enabled}
-                  onChange={() = className="focus-ring"> togglePaymentMethod(method.id)}
+                  onChange={() => togglePaymentMethod(method.id)}
                   className="sr-only peer focus-ring"
                 />
                 <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
@@ -105,7 +105,7 @@ export const PaymentSettingsManager: React.FC = () => {
                 id="account-name"
                 type="text"
                 value={bankDetails.accountName}
-                onChange={(e) = className="focus-ring"> setBankDetails(prev => ({ ...prev, accountName: e.target.value }))}
+                onChange={(e) => setBankDetails(prev => ({ ...prev, accountName: e.target.value }))}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus-ring"
               />
             </div>
@@ -115,7 +115,7 @@ export const PaymentSettingsManager: React.FC = () => {
                 id="sort-code"
                 type="text"
                 value={bankDetails.sortCode}
-                onChange={(e) = className="focus-ring"> setBankDetails(prev => ({ ...prev, sortCode: e.target.value }))}
+                onChange={(e) => setBankDetails(prev => ({ ...prev, sortCode: e.target.value }))}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus-ring"
                 placeholder="12-34-56"
               />
@@ -126,7 +126,7 @@ export const PaymentSettingsManager: React.FC = () => {
                 id="account-number"
                 type="text"
                 value={bankDetails.accountNumber}
-                onChange={(e) = className="focus-ring"> setBankDetails(prev => ({ ...prev, accountNumber: e.target.value }))}
+                onChange={(e) => setBankDetails(prev => ({ ...prev, accountNumber: e.target.value }))}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus-ring"
                 placeholder="12345678"
               />
@@ -137,7 +137,7 @@ export const PaymentSettingsManager: React.FC = () => {
                 id="payment-reference"
                 type="text"
                 value={bankDetails.reference}
-                onChange={(e) = className="focus-ring"> setBankDetails(prev => ({ ...prev, reference: e.target.value }))}
+                onChange={(e) => setBankDetails(prev => ({ ...prev, reference: e.target.value }))}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus-ring"
                 placeholder="Booking-{BOOKING_ID}"
               />

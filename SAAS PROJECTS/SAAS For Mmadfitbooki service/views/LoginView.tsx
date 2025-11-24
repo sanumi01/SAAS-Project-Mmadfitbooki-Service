@@ -37,15 +37,15 @@ const SignupForm: React.FC = () => {
             <form onSubmit={handleSubmit} className="space-y-4">
                  <div>
                     <label htmlFor="name" className="block text-sm font-medium text-text-primary/80 mb-1">Full Name</label>
-                    <input type="text" id="name" value={name} onChange={(e) = className="focus-ring"> setName(e.target.value)} required className="w-full bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition" placeholder="Admin User" />
+                    <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} required className="w-full bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition" placeholder="Admin User" />
                 </div>
                 <div>
                     <label htmlFor="email" className="block text-sm font-medium text-text-primary/80 mb-1">Admin Email</label>
-                    <input type="email" id="email" value={email} onChange={(e) = className="focus-ring"> setEmail(e.target.value)} required className="w-full bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition" placeholder="admin@maadfit.com" />
+                    <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} required className="w-full bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition" placeholder="admin@maadfit.com" />
                 </div>
                 <div>
                     <label htmlFor="password" className="block text-sm font-medium text-text-primary/80 mb-1">Password</label>
-                    <input type="password" id="password" value={password} onChange={(e) = className="focus-ring"> setPassword(e.target.value)} required minLength={6} className="w-full bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition" placeholder="••••••••" />
+                    <input type="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)} required minLength={6} className="w-full bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition" placeholder="••••••••" />
                 </div>
                 {error && (<p className="text-sm text-red-500 text-center">{error}</p>)}
                 <button type="submit" disabled={isSigningUp} className="w-full bg-brand-primary text-white font-bold py-3 px-4 rounded-md hover:bg-brand-secondary transition-colors duration-300 disabled:bg-gray-500 disabled:cursor-not-allowed flex items-center justify-center focus-ring">
@@ -93,11 +93,11 @@ const LoginForm: React.FC = () => {
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
                         <label htmlFor="email-login" className="block text-sm font-medium text-text-primary/80 mb-1">Email Address</label>
-                        <input type="email" id="email-login" value={email} onChange={(e) = className="focus-ring"> setEmail(e.target.value)} required className="w-full bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition" placeholder="you@example.com"/>
+                        <input type="email" id="email-login" value={email} onChange={(e) => setEmail(e.target.value)} required className="w-full bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition" placeholder="you@example.com"/>
                     </div>
                     <div>
                         <label htmlFor="password-login" className="block text-sm font-medium text-text-primary/80 mb-1">Password</label>
-                        <input type="password" id="password-login" value={password} onChange={(e) = className="focus-ring"> setPassword(e.target.value)} required className="w-full bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition" placeholder="••••••••" />
+                        <input type="password" id="password-login" value={password} onChange={(e) => setPassword(e.target.value)} required className="w-full bg-background-dark border border-border-dark rounded px-3 py-2 text-text-primary focus-ring transition" placeholder="••••••••" />
                     </div>
                     {error && (<p className="text-sm text-red-500 text-center">{error}</p>)}
                     <button type="submit" disabled={isLoggingIn} className="w-full bg-brand-primary text-white font-bold py-3 px-4 rounded-md hover:bg-brand-secondary transition-colors duration-300 disabled:bg-gray-500 disabled:cursor-not-allowed flex items-center justify-center focus-ring">
@@ -110,7 +110,7 @@ const LoginForm: React.FC = () => {
                 <h3 className="text-center font-semibold text-text-primary mb-3">Quick Logins (for Demo)</h3>
                 <div className="flex justify-around gap-2">
                     {MOCK_CREDENTIALS.map(cred => (
-                        <button key={cred.role} type="button" onClick={() = className="focus-ring"> handleQuickLogin(cred.email, cred.pass)} disabled={isLoggingIn} className="text-xs px-3 py-1 rounded-full bg-surface-dark hover:bg-border-dark text-brand-primary font-bold transition-colors disabled:opacity-50 disabled:cursor-not-allowed focus-ring">
+                        <button key={cred.role} type="button" onClick={() => handleQuickLogin(cred.email, cred.pass)} disabled={isLoggingIn} className="text-xs px-3 py-1 rounded-full bg-surface-dark hover:bg-border-dark text-brand-primary font-bold transition-colors disabled:opacity-50 disabled:cursor-not-allowed focus-ring">
                             {cred.role}
                         </button>
                     ))}

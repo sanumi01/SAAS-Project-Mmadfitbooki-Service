@@ -101,7 +101,7 @@ export const ChatWidget: React.FC = () => {
     return (
         <>
             <button
-                onClick={() = className="focus-ring"> setIsOpen(!isOpen)}
+                onClick={() => setIsOpen(!isOpen)}
                 className="fixed bottom-6 right-6 bg-brand-primary text-white p-3 rounded-full shadow-lg hover:bg-brand-secondary transition-transform transform hover:scale-110 z-20 focus-ring"
                 aria-label={isOpen ? "Close chat" : "Open chat"}
                 type="button"
@@ -142,7 +142,7 @@ export const ChatWidget: React.FC = () => {
                         <input
                             type="text"
                             value={userInput}
-                            onChange={(e) = className="focus-ring"> setUserInput(e.target.value)}
+                            onChange={(e) => setUserInput(e.target.value)}
                             placeholder="Ask about fitness..."
                             className="flex-1 bg-background-dark border border-border-dark rounded-full px-4 py-2 text-text-primary focus:ring-brand-primary focus:border-brand-primary transition focus-ring"
                             disabled={isLoading}

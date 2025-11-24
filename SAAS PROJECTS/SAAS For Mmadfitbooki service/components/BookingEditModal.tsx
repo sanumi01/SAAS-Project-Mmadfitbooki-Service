@@ -89,7 +89,7 @@ export const BookingEditModal: React.FC<BookingEditModalProps> = ({ isOpen, onCl
                         id="trainer-select"
                         aria-label="Select trainer"
                         value={selectedTrainer?.id || ''}
-                        onChange={(e) = className="focus-ring"> {
+                        onChange={(e) => {
                             const newTrainer = allTrainers.find(t => t.id === e.target.value);
                             if(newTrainer) setSelectedTrainer(newTrainer);
                             setSelectedTime(null);

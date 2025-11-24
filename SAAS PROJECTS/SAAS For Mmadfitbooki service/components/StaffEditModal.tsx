@@ -143,7 +143,7 @@ export const StaffEditModal: React.FC<StaffEditModalProps> = ({ isOpen, onClose,
                 <div className="flex items-center gap-4">
                     <img src={formData.imageUrl} alt="Profile preview" className="w-20 h-20 rounded-full object-cover border-2 border-border-dark" />
                     <input type="file" accept="image/*" ref={fileInputRef} onChange={handleFileChange} className="hidden focus-ring" />
-                    <button type="button" onClick={() = className="focus-ring"> fileInputRef.current?.click()} className="text-sm font-semibold bg-surface-dark border border-border-dark text-text-primary py-2 px-4 rounded-md hover:bg-border-dark transition-colors focus-ring" aria-label="Change profile picture">
+                    <button type="button" onClick={() => fileInputRef.current?.click()} className="text-sm font-semibold bg-surface-dark border border-border-dark text-text-primary py-2 px-4 rounded-md hover:bg-border-dark transition-colors focus-ring" aria-label="Change profile picture">
                         Change Picture
                     </button>
                 </div>

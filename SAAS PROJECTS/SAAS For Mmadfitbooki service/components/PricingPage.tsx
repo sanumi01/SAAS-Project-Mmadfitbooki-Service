@@ -173,7 +173,7 @@ const PricingPage: React.FC = () => {
             </button>
             <button
               type="button"
-              onClick={() = className="focus-ring"> setShowContactForm(false)}
+              onClick={() => setShowContactForm(false)}
               className="flex-1 bg-gray-300 text-gray-700 py-2 px-4 rounded-md hover:bg-gray-400 transition-colors focus-ring"
             >
               Cancel
@@ -233,7 +233,7 @@ const PricingPage: React.FC = () => {
             </span>
             <button
               type="button"
-              onClick={() = className="focus-ring"> setBillingCycle(billingCycle === 'monthly' ? 'yearly' : 'monthly')}
+              onClick={() => setBillingCycle(billingCycle === 'monthly' ? 'yearly' : 'monthly')}
               className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
                 billingCycle === 'yearly' ? 'bg-pink-600' : 'bg-gray-200'
               } focus-ring`}
@@ -299,7 +299,7 @@ const PricingPage: React.FC = () => {
 
               <button
                 type="button"
-                onClick={() = className="focus-ring"> handlePlanSelect(plan.id)}
+                onClick={() => handlePlanSelect(plan.id)}
                 className={`w-full py-3 px-6 rounded-lg font-medium transition-colors ${
                   plan.popular
                     ? 'bg-pink-600 text-white hover:bg-pink-700'
@@ -341,7 +341,7 @@ const PricingPage: React.FC = () => {
             </div>
             <button
               type="button"
-              onClick={() = className="focus-ring"> setShowContactForm(true)}
+              onClick={() => setShowContactForm(true)}
               className="bg-white text-pink-600 px-8 py-3 rounded-lg font-medium hover:bg-pink-50 transition-colors focus-ring"
               aria-label="Contact sales for quote"
             >

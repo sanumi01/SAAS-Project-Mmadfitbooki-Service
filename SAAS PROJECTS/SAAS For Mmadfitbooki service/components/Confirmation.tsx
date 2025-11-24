@@ -119,7 +119,7 @@ export const Confirmation: React.FC<ConfirmationProps> = ({ bookingDetails, onNe
                     <p className="text-text-primary/80 mt-2 mb-4">To view your booking history or make changes to your appointment, please log in to your account.</p>
                     <button
                         type="button"
-                        onClick={() = className="focus-ring"> setView(AppView.LOGIN)}
+                        onClick={() => setView(AppView.LOGIN)}
                         className="bg-brand-secondary text-white font-bold py-2 px-6 rounded-md hover:bg-brand-primary transition-colors focus-ring"
                     >
                         Login to Your Account

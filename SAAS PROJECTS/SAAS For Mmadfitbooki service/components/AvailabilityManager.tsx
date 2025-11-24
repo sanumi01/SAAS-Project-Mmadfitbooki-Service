@@ -11,7 +11,7 @@ const TimeSlotToggle: React.FC<{ time: string, isAvailable: boolean, onToggle: (
     <div className="flex items-center justify-between p-3 bg-background-dark rounded-lg">
         <span className="text-text-primary font-mono">{new Date(`1970-01-01T${time}`).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true })}</span>
         <label htmlFor={`toggle-${time}`} className="inline-flex relative items-center cursor-pointer">
-            <input aria-label={`Toggle availability for ${time}`} type="checkbox" checked={isAvailable} onChange={(e) = className="focus-ring"> onToggle(time, e.target.checked)} id={`toggle-${time}`} className="sr-only peer" />
+            <input aria-label={`Toggle availability for ${time}`} type="checkbox" checked={isAvailable} onChange={(e) => onToggle(time, e.target.checked)} id={`toggle-${time}`} className="sr-only peer" />
             <div className="w-11 h-6 bg-border-dark rounded-full peer peer-focus:ring-2 peer-focus:ring-brand-secondary peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-brand-primary"></div>
         </label>
     </div>
@@ -188,7 +188,7 @@ export const AvailabilityManager: React.FC<AvailabilityManagerProps> = ({ select
                                 if (isSelected) stateClasses = 'bg-brand-primary text-white';
 
                                 return (
-                                    <button key={i} type="button" onClick={() = className="focus-ring"> setSelectedDate(day)} className={`relative h-10 w-10 rounded-full flex items-center justify-center transition-colors ${stateClasses} focus-ring`}>
+                                    <button key={i} type="button" onClick={() => setSelectedDate(day)} className={`relative h-10 w-10 rounded-full flex items-center justify-center transition-colors ${stateClasses} focus-ring`}>
                                         {day.getDate()}
                                         {hasSettings && !isSelected && <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-brand-primary rounded-full"></div>}
                                     </button>
@@ -203,8 +203,8 @@ export const AvailabilityManager: React.FC<AvailabilityManagerProps> = ({ select
                         </h3>
                         <div className="flex flex-col gap-2 mb-4">
                             <div className="grid grid-cols-2 gap-2">
-                                <button onClick={() = className="focus-ring"> handleSetAll(true)} type="button" className="flex-1 bg-brand-secondary text-white text-sm py-2 rounded-md hover:bg-brand-primary transition-colors focus-ring">Make All Available</button>
-                                <button onClick={() = className="focus-ring"> handleSetAll(false)} type="button" className="flex-1 bg-border-dark text-text-primary/80 text-sm py-2 rounded-md hover:bg-surface-dark transition-colors focus-ring">Block All Day</button>
+                                <button onClick={() => handleSetAll(true)} type="button" className="flex-1 bg-brand-secondary text-white text-sm py-2 rounded-md hover:bg-brand-primary transition-colors focus-ring">Make All Available</button>
+                                <button onClick={() => handleSetAll(false)} type="button" className="flex-1 bg-border-dark text-text-primary/80 text-sm py-2 rounded-md hover:bg-surface-dark transition-colors focus-ring">Block All Day</button>
                                 <button 
                                     onClick={handleCopyFromPreviousDay}
                                     type="button"

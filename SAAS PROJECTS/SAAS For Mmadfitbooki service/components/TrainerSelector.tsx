@@ -45,7 +45,7 @@ export const TrainerSelector: React.FC<TrainerSelectorProps> = ({ trainers, sele
               <div className="mt-2 flex items-center justify-center gap-3">
                 <button
                   type="button"
-                  onClick={() = className="focus-ring"> onSelectTrainer(trainer)}
+                  onClick={() => onSelectTrainer(trainer)}
                   className="px-2 py-1 text-xs bg-brand-primary text-white rounded-md focus-ring"
                   aria-label={`Select ${trainer.name}`}
                 >
@@ -53,7 +53,7 @@ export const TrainerSelector: React.FC<TrainerSelectorProps> = ({ trainers, sele
                 </button>
                 <button 
                   type="button"
-                  onClick={(e) = className="focus-ring"> handleViewProfile(e, trainer)}
+                  onClick={(e) => handleViewProfile(e, trainer)}
                   className="text-xs text-brand-primary hover:underline focus-ring"
                   aria-label={`View profile for ${trainer.name}`}
                 >

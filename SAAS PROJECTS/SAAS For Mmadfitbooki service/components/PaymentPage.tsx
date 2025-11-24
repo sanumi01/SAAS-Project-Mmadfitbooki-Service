@@ -224,7 +224,7 @@ const PaymentPage: React.FC<PaymentPageProps> = ({ selectedPlan = 'professional'
                     type="text"
                     required
                     value={customerInfo.firstName}
-                    onChange={(e) = className="focus-ring"> setCustomerInfo({...customerInfo, firstName: e.target.value})}
+                    onChange={(e) => setCustomerInfo({...customerInfo, firstName: e.target.value})}
                     className="w-full px-3 py-2 border border-gray-300 rounded focus-ring"
                   />
                 </div>
@@ -236,7 +236,7 @@ const PaymentPage: React.FC<PaymentPageProps> = ({ selectedPlan = 'professional'
                     type="text"
                     required
                     value={customerInfo.lastName}
-                    onChange={(e) = className="focus-ring"> setCustomerInfo({...customerInfo, lastName: e.target.value})}
+                    onChange={(e) => setCustomerInfo({...customerInfo, lastName: e.target.value})}
                     className="w-full px-3 py-2 border border-gray-300 rounded focus-ring"
                   />
                 </div>
@@ -249,7 +249,7 @@ const PaymentPage: React.FC<PaymentPageProps> = ({ selectedPlan = 'professional'
                   type="email"
                   required
                   value={customerInfo.email}
-                  onChange={(e) = className="focus-ring"> setCustomerInfo({...customerInfo, email: e.target.value})}
+                  onChange={(e) => setCustomerInfo({...customerInfo, email: e.target.value})}
                   className="w-full px-3 py-2 border border-gray-300 rounded focus-ring"
                 />
               </div>
@@ -260,7 +260,7 @@ const PaymentPage: React.FC<PaymentPageProps> = ({ selectedPlan = 'professional'
                 <input
                   type="text"
                   value={customerInfo.businessName}
-                  onChange={(e) = className="focus-ring"> setCustomerInfo({...customerInfo, businessName: e.target.value})}
+                  onChange={(e) => setCustomerInfo({...customerInfo, businessName: e.target.value})}
                   className="w-full px-3 py-2 border border-gray-300 rounded focus-ring"
                 />
               </div>
@@ -272,7 +272,7 @@ const PaymentPage: React.FC<PaymentPageProps> = ({ selectedPlan = 'professional'
               <div className="grid grid-cols-2 gap-4">
                 <button
                   type="button"
-                  onClick={() = className="focus-ring"> setPaymentMethod('paypal')}
+                  onClick={() => setPaymentMethod('paypal')}
                   className={`p-4 border-2 rounded-lg flex items-center justify-center ${
                     paymentMethod === 'paypal' 
                       ? 'border-pink-500 bg-pink-50' 
@@ -286,7 +286,7 @@ const PaymentPage: React.FC<PaymentPageProps> = ({ selectedPlan = 'professional'
                 </button>
                 <button
                   type="button"
-                  onClick={() = className="focus-ring"> setPaymentMethod('card')}
+                  onClick={() => setPaymentMethod('card')}
                   className={`p-4 border-2 rounded-lg flex items-center justify-center ${
                     paymentMethod === 'card' 
                       ? 'border-pink-500 bg-pink-50' 

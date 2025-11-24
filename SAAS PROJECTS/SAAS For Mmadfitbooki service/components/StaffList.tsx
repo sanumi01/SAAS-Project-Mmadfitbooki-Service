@@ -33,7 +33,7 @@ export const StaffList: React.FC<StaffListProps> = ({ trainers, onEdit, onDelete
                 <div className="flex justify-end items-center gap-2">
                     <button
                       type="button"
-                      onClick={() = className="focus-ring"> onEdit(trainer)}
+                      onClick={() => onEdit(trainer)}
                       className="text-brand-primary hover:underline text-sm font-semibold focus-ring"
                       aria-label={`Edit ${trainer.name}`}
                     >
@@ -41,7 +41,7 @@ export const StaffList: React.FC<StaffListProps> = ({ trainers, onEdit, onDelete
                     </button>
                     <button
                       type="button"
-                      onClick={() = className="focus-ring"> onDelete(trainer)}
+                      onClick={() => onDelete(trainer)}
                       className="text-red-500 hover:underline text-sm font-semibold focus-ring"
                       aria-label={`Delete ${trainer.name}`}
                     >
